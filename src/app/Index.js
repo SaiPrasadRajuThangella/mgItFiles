@@ -7,6 +7,8 @@ import ListData from "./components/ListData";
 import ParentComponent from "../../ParentComponent";
 import Colorpicker from "./Colorpicker";
 import Todo from "./Todo";
+import Myeffect from "./components/Counter";
+import Counter from "./components/Counter";
 
 const Index = () => {
   return (
@@ -17,9 +19,11 @@ const Index = () => {
       <ButtonComp/>
       <DynamicContent/> */}
       {/* <ListData/> */}
-      {/* <ParentComponent/> */}
+      <ParentComponent/>
        {/* <Colorpicker/> */}
-       <Todo/>
+       {/* <Todo/>
+        */}
+        {/* <Counter/> */}
     </View>
   );
 };
